@@ -18,7 +18,7 @@ def mensagem(message):
     lista.append(message.text)
     pergunta = lista[0]
   
-    prompt = str(pergunta[6:10000000000000000000000000000000000000000000000000000])
+    prompt = str(pergunta[6:500])
     
     model = 'text-davinci-003'
     
