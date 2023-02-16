@@ -25,7 +25,7 @@ def mensagem(message):
     data = {
         "prompt": prompt,
         "model": model,
-        "max_tokens": 500
+        "max_tokens": 200
     }
     
     response = requests.post(endpoint, json=data, headers={
