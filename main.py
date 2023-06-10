@@ -1,9 +1,9 @@
 from telebot import TeleBot
 import requests
 
-BOT_TOKEN = '5999179568:AAEONyhPBQLxx5xWI3YugNFFNQ9QlfaM640'
+BOT_TOKEN = ''
 
-api_key = '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'
+api_key = ''
 endpoint = 'https://api.openai.com/v1/completions'
 
 bot = TeleBot(BOT_TOKEN)
